@@ -13,7 +13,7 @@ setup(
     version=VERSION,
     url='https://github.com/insper-education/active-handout-theme',
     license='',
-    description="Mkdocs theme for Insper's active handouts",
+    description="MkDocs theme for Insper's active handouts",
     author='Igor Montagner',
     author_email='igordsm@gmail.com',
     packages=find_packages(),
