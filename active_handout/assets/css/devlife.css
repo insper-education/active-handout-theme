@@ -460,6 +460,42 @@ hr.content-footer-sep {
 }
 /* End admonition exercise */
 
+/* Start exercise list */
+.md-typeset ul.exercise-list {
+  margin-left: 0;
+}
+
+.md-typeset ul li.exercise-list--item.exercise-list--item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.exercise-list--item::before {
+  content: "";
+  background-size: 2rem 2rem;
+  height: 2rem;
+  width: 2rem;
+
+  margin-right: 1rem;
+}
+.exercise-list--item.difficulty-1::before {
+  background-image: url(../images/difficulty/dumbbell1.svg);
+}
+.exercise-list--item.difficulty-2::before {
+  background-image: url(../images/difficulty/dumbbell2.svg);
+}
+.exercise-list--item.difficulty-3::before {
+  background-image: url(../images/difficulty/dumbbell3.svg);
+}
+.exercise-list--item.difficulty-4::before {
+  background-image: url(../images/difficulty/dumbbell4.svg);
+}
+.exercise-list--item.difficulty-5::before {
+  background-image: url(../images/difficulty/dumbbell5.svg);
+}
+/* End exercise list */
+
 /* Begin admonition answered */
 .md-typeset.md-typeset .admonition.answered,
 .md-typeset.md-typeset details.answered {
@@ -484,7 +520,7 @@ hr.content-footer-sep {
 }
 /* End admonition calendar */
 
-/* Start ontributors */
+/* Start contributors */
 .md-typeset.md-typeset ul.contributor-list {
   display: flex;
   flex-wrap: wrap;
