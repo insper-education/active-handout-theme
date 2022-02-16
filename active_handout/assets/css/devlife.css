@@ -237,7 +237,7 @@ html .md-typeset.md-typeset details > :last-child {
 
   .md-typeset.md-typeset .admonition-title,
   .md-typeset.md-typeset summary {
-    margin: 0 -2rem 1rem -2.2rem;
+    margin: 0 -1rem 1rem -1.2rem;
   }
 
   .md-typeset.md-typeset .admonition .admonition {
