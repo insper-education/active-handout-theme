@@ -55,6 +55,7 @@ body {
 .md-nav,
 .md-tabs__link,
 .md-search__input,
+.md-typeset.md-typeset .tabbed-labels > label,
 .md-search-result__meta {
   font-size: 1rem;
   line-height: 1.6667;
