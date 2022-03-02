@@ -99,6 +99,13 @@ body {
   margin: 4rem 0 1rem;
 }
 
+.md-typeset.md-typeset h3 {
+  color: #404040;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .md-typeset.md-typeset p {
   margin-bottom: 1rem;
 }
