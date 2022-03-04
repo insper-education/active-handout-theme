@@ -10,11 +10,3 @@
     </script>
 {% endif %}
 {% endblock %}
-
-{% set extracopyright %}
-{% if page and page.meta and page.meta.copyright %}
-<div class="extra-footer">
-{{page.meta.copyright}}
-</div>
-{% endif %}
-{% endset %}
